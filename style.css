@@ -244,10 +244,8 @@ h2 {
 
 .thumbnail {
 /*  width: 21%;*/
-  /* width: 18%; */
-  /* float: left; */
-  width: 100%;
-  height: 100%;
+  width: 18%;
+  float: left;
   margin-right: 2%;
 }
 
@@ -255,11 +253,19 @@ h2 {
   border-bottom: none;
 }
 
-.thumbnail img {
+/* .thumbnail img {
   margin-top: 0.4em;
   border-radius: 5px;
   width: 100%;
   height: 100%;
+} */
+
+.thumbnail img {
+  width: 150px; /* Set desired width */
+  height: 150px; /* Set height equal to width for a square */
+  object-fit: cover; /* Ensures the image is cropped to fit the square */
+  border-radius: 5px; /* Retain rounded corners */
+  margin-top: 0.4em;
 }
 
 .thumbnail video {
