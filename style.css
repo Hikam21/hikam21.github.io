@@ -244,8 +244,8 @@ h2 {
 
 .thumbnail {
 /*  width: 21%;*/
-  width: 250px;
-  height:  250px;
+  width: 200px;
+  height:  200px;
   float: left;
   margin-right: 2%;
 }
@@ -262,8 +262,8 @@ h2 {
 } */
 
 .thumbnail img {
-  width:  250px; /* Set desired width */
-  height:  250px; /* Set height equal to width for a square */
+  width:  200px; /* Set desired width */
+  height:  200px; /* Set height equal to width for a square */
   object-fit: cover; /* Ensures the image is cropped to fit the square */
   border-radius: 5px; /* Retain rounded corners */
   margin-top: 0.4em;
